@@ -13,6 +13,6 @@ headers = {
 }
 
 for i in range(150):
-        payload = {"text": text,"color": 0,"font_size": 4,"post_id": post_id}
+        payload = {"text": text,"color": color,"font_size": font_size,"post_id": post_id}
         res = requests.post('https://api.yay.space/v1/posts/repost',headers=headers,data=payload)
         print(res,res.text)
