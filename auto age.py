@@ -3,7 +3,9 @@ import requests
 TOKEN = ""
 text = ""
 color = ""
+#0-7,1001-1007
 font_size = ""
+#0-4
 post_id = ""
 
 headers = {
