@@ -2,6 +2,8 @@ import requests
 
 TOKEN = ""
 text = ""
+color = ""
+font_size = ""
 post_id = ""
 
 headers = {
